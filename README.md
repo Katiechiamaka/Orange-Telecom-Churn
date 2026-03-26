@@ -33,5 +33,15 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 - Investigate whether customers with voice mail plans are less likely to churn.
 - Examine how call usage and charges influence customer churn behavior.
 
+# Key Finding and Insights
+
+
+
+# Recommendation 
+
+
+
+# Conclusion
+
 
 

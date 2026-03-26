@@ -9,7 +9,7 @@ This project focuses on analyzing the Orange Telecom Customer Churn dataset to i
 
 
 # Business Objectives
-	Analysis Objectives
+Analysis Objectives
 - Objective 1: Understanding the performance of customer service within the Orange
 Telecom churn (Identifying if customer service interaction is a predictor of churn).
 - Objective 2: Analyzing Plan Subscriptions and Usage Patterns as Drivers for Customer

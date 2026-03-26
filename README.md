@@ -16,6 +16,8 @@ This project focuses on analyzing the Orange Telecom Customer Churn dataset to i
 # Problem Statement
 Orange Telecom is experiencing customer churn and lacks clear insight into the key factors driving customer attrition. This analysis aims to identify the impact of customer service interactions, plan subscriptions, usage patterns, and customer tenure on churn, in order to support data-driven strategies for improving customer retention and reducing churn rates.
 
+# Key Performance Indicators (KPIs)
+
 
 # Business Objectives
 #### Customer Service Performance Objectives

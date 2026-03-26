@@ -18,10 +18,20 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 
 
 # Business Objectives
-Analysis Objectives
-- Objective 1: Understanding the performance of customer service within the Orange
-Telecom churn (Identifying if customer service interaction is a predictor of churn).
-- Objective 2: Analyzing Plan Subscriptions and Usage Patterns as Drivers for Customer
-Churn (Identifying high-risk segments based on their international/voice mail plans and
-billing).
+#### Customer Service Performance Objectives
+- Determine how the frequency of customer service calls influences the probability of a customer churning.
+- Find the tipping point (e.g., 3+ calls) where customers are most likely to become dissatisfied.
+- Compare average service call frequency between churned and retained customers to uncover risk indicators.
+- Identify states with high customer service activity that may indicate regional service quality issues.
+- Determine the main factors (service calls, plans, usage, tenure) influencing customer attrition.
+
+#### Plan & Usage Driver Objectives
+- Evaluate whether customers subscribed to International Plans are more likely to churn compared to those without.
+- Analyze whether total daily and international charges differ significantly between churned and retained customers.
+- Assess whether customers with international plans have higher churn rates.
+- Determine if newer customers are at higher risk and how account length affects churn probability.
+- Investigate whether customers with voice mail plans are less likely to churn.
+- Examine how call usage and charges influence customer churn behavior.
+
+
 

@@ -19,11 +19,10 @@ The dataset consists of **2,666** customers and captures key attributes that hel
 - Account Length – Number of days the customer has been with the company (tenure)
 
 #### Service Plans
-_ International Plan – Indicates whether the customer subscribes to an international calling plan.
+- International Plan – Indicates whether the customer subscribes to an international calling plan.
 - Voice Mail Plan – Indicates whether the customer has a voice mail subscription.
   
 #### Usage Metrics
-### Usage Metrics
 - Call Usage by Period (Day, Evening, Night) – Minutes and associated charges 
 - International Usage (Minutes / Charges) – Total international call usage and cost.
   
@@ -34,7 +33,6 @@ _ International Plan – Indicates whether the customer subscribes to an interna
 - Churn – Indicates whether the customer has left the service (True/False)
 
 # Dashboard Overview
-
 <img width="1563" height="654" alt="Telecom Churn Overview" src="https://github.com/user-attachments/assets/4772798d-199c-4a59-8f73-acf6ec305ec9" />
 
 ### Customer Service Plan Dashboard
@@ -70,7 +68,7 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 
 # Key Finding and Insights
 
-### Customer Service Calls Strongly Drive Churn
+#### Customer Service Calls Strongly Drive Churn
 Churn rate increases sharply as customer service calls increase
 Customers with 6–8 calls show churn rates above 60%–100%
 Low call frequency (0–2 calls) has very low churn (~10%)

@@ -19,8 +19,11 @@ This project focuses on analyzing the Orange Telecom Customer Churn dataset to i
 Orange Telecom is experiencing customer churn and lacks clear insight into the key factors driving customer attrition. This analysis aims to identify the impact of customer service interactions, plan subscriptions, usage patterns, and customer tenure on churn, in order to support data-driven strategies for improving customer retention and reducing churn rates.
 
 # Key Performance Indicators (KPIs)
-- *Total Customers: 2666 * - Total number of customers.
-- *Churn Rate: 14.55%* - Percentage of customers who have churned
+- **Total Customers: 2666** - Total number of customers.
+- **Churn Rate: 14.55%** - Percentage of customers who have churned
+- **Churned Customers: 388** - Total number of customers who left
+- **Average Account Length: 100.62** - Average duration customers stay with the company
+- **Average Customer Service Calls: 1.56** - Average number of service calls made by customers
 
 # Business Objectives
 #### Customer Service Performance Objectives

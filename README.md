@@ -19,7 +19,8 @@ This project focuses on analyzing the Orange Telecom Customer Churn dataset to i
 Orange Telecom is experiencing customer churn and lacks clear insight into the key factors driving customer attrition. This analysis aims to identify the impact of customer service interactions, plan subscriptions, usage patterns, and customer tenure on churn, in order to support data-driven strategies for improving customer retention and reducing churn rates.
 
 # Key Performance Indicators (KPIs)
-
+- *Total Customers: 2666 * - Total number of customers.
+- *Churn Rate: 14.55%* - Percentage of customers who have churned
 
 # Business Objectives
 #### Customer Service Performance Objectives
@@ -38,7 +39,7 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 - Examine how call usage and charges influence customer churn behavior.
 
 # Key Finding and Insights
-1. Customer Service Calls Strongly Drive Churn
+### Customer Service Calls Strongly Drive Churn
 Churn rate increases sharply as customer service calls increase
 Customers with 6–8 calls show churn rates above 60%–100%
 Low call frequency (0–2 calls) has very low churn (~10%)
@@ -129,8 +130,9 @@ Churn is moderate but important enough to act on
 
 # Tools And Techniques
 #### 🛠️ Tools
-- *Power BI* – Used for data cleaning, transformation, modeling, and building interactive dashboards
+- *Power BI* – Used for data cleaning, transformation, modeling, and building interactive dashboards.
 - *Microsoft Excel* - Used for initial data inspection and understanding dataset structure
+
 #### 📊 Techniques
 - *Data Cleaning & Transformation* – Handling data types, creating calculated columns (e.g., tenure groups, risk tiers)
 - *DAX (Data Analysis Expressions)* – Creating measures such as:
@@ -138,8 +140,6 @@ Churn is moderate but important enough to act on
   - Churn Rate
   - Churned Customers
   - Retained Customers
-
-- *Data Modeling* – Structuring data for efficient analysis and visualization
 - *Data Visualization* – Using charts such as:
     - Bar charts
     - Column charts
@@ -149,7 +149,7 @@ Churn is moderate but important enough to act on
     - Service call frequency
     - Tenure
     - Usage behavior
-_ *Exploratory Data Analysis (EDA)* – Identifying patterns, trends, and relationships between variables
+- *Exploratory Data Analysis (EDA)* – Identifying patterns, trends, and relationships between variables
 - *KPI & Dashboard Design* – Creating key metrics and a user-friendly dashboard layout for insights
 
 # Conclusion

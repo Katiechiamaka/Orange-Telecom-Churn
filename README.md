@@ -6,13 +6,39 @@
 This project focuses on analyzing the Orange Telecom Customer Churn dataset to identify patterns and factors that influence customer attrition. The dataset contains customer usage behavior, service plans, billing information, and customer service interactions, along with a target variable indicating whether a customer churned.
 
 # Dataset Description
+The dataset used in this analysis contains customer-level information from a telecom company (Orange Telecom) and is designed to support the study of customer churn behavior. Each record represents an individual customer and includes details on their service usage, subscription plans, customer service interactions, and churn status.
 
+The dataset consists of **2,666** customers and captures key attributes that help explain why customers choose to stay or leave the service.
+
+### Key Features in the Dataset
+#### Customer Information
+- State – Geographic location of the customer
+- Area Code – Regional code associated with the customer
+  
+#### Account Details
+- Account Length – Number of days the customer has been with the company (tenure)
+
+#### Service Plans
+_ International Plan – Indicates whether the customer subscribes to an international calling plan.
+- Voice Mail Plan – Indicates whether the customer has a voice mail subscription.
+  
+#### Usage Metrics
+### Usage Metrics
+- Call Usage by Period (Day, Evening, Night) – Minutes and associated charges 
+- International Usage (Minutes / Charges) – Total international call usage and cost.
+  
+#### Customer Service Interaction
+- Customer Service Calls – Number of times the customer contacted customer support.
+  
+#### Target Variable
+- Churn – Indicates whether the customer has left the service (True/False)
 
 # Dashboard Overview
-<img width="1560" height="650" alt="Telecom Churn Overview" src="https://github.com/user-attachments/assets/1c4e7777-8a02-4756-9b0a-0b0c15a174fa" />
+
+<img width="1563" height="654" alt="Telecom Churn Overview" src="https://github.com/user-attachments/assets/4772798d-199c-4a59-8f73-acf6ec305ec9" />
 
 ### Customer Service Plan Dashboard
-<img width="1564" height="650" alt="Telecom churn Customers plan usage" src="https://github.com/user-attachments/assets/bd528c0d-2fbc-4f2a-a4a9-fb5ac24b0860" />
+<img width="1563" height="657" alt="Telecom churn Customers plan usage" src="https://github.com/user-attachments/assets/77d85c19-b1fc-4c8b-bb85-49adfa2e59d6" />
 
 
 # Problem Statement
@@ -22,8 +48,9 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 - **Total Customers: 2666** - Total number of customers.
 - **Churn Rate: 14.55%** - Percentage of customers who have churned
 - **Churned Customers: 388** - Total number of customers who left
-- **Average Account Length: 100.62** - Average duration customers stay with the company
+- **Average Account Length: 100.62 Days** - Customers stay with the company for approximately 3.3 months on average.
 - **Average Customer Service Calls: 1.56** - Average number of service calls made by customers
+
 
 # Business Objectives
 #### Customer Service Performance Objectives
@@ -42,6 +69,7 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 - Examine how call usage and charges influence customer churn behavior.
 
 # Key Finding and Insights
+
 ### Customer Service Calls Strongly Drive Churn
 Churn rate increases sharply as customer service calls increase
 Customers with 6–8 calls show churn rates above 60%–100%

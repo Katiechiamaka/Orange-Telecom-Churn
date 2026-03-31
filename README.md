@@ -72,18 +72,17 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 #### Customer Service Calls as a Key Driver of Churn (Critical Threshold: 4+ Calls)
 <img width="639" height="247" alt="Screenshot 2026-03-30 165946" src="https://github.com/user-attachments/assets/b01d21e3-bb1a-4d06-bbca-74933b70519c" />
 
+##### Insight:
 - Churn rate increases sharply as customer service calls increase
 - Customers with 6–8 calls show churn rates above 60%–100%
 - Low call frequency (0–2 calls) has very low churn (10%)
 - Churn jumps significantly after 4 service calls (48%+)
 
-##### Insight:
   - Frequent complaints are a major predictor of churn.
   - A significant jump in churn occurs at 4+ service calls, with churn rising from 10.6% to 48.1%, indicating a critical threshold of customer dissatisfaction.
 
 
 #### Customer Service and Churn Risk
-
 <img width="1209" height="408" alt="Screenshot 2026-03-31 135817" src="https://github.com/user-attachments/assets/ffea205a-f615-468f-b9d1-3d2e448a176e" />
 
 ##### Insight:
@@ -92,9 +91,9 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
   - Retained customers: 1.45 calls
     
 - Customers in the high call frequency segment show significantly higher churn rates:
-  - High frequency: ~64% churn
-  - Medium frequency: ~24% churn
-  - Low frequency: ~11% churn
+  - High frequency: 64% churn
+  - Medium frequency: 24% churn
+  - Low frequency: 11% churn
 
 Increased customer service interaction is a strong indicator of dissatisfaction, and customers with frequent complaints represent a high-risk segment for churn.
   
@@ -108,21 +107,17 @@ Increased customer service interaction is a strong indicator of dissatisfaction,
   
 While service plans and pricing factors influence churn behavior, they are not the primary drivers. However, value-added services like voice mail plans may support retention, and higher charges may contribute to churn due to perceived cost or value concerns.
 
-⏳ 8. New Customers Are More Likely to Churn
-Highest churn observed in early tenure groups (e.g., 0–8 months)
-Churn decreases as tenure increases
 
-👉 Insight:
-Customer loyalty improves over time
+### Churn Rate by Customer Tenure Group
+<img width="549" height="254" alt="Screenshot 2026-03-31 135130" src="https://github.com/user-attachments/assets/9341e8f8-dda6-43f6-86ea-0c6ef5546a52" />
 
+##### Insight:
+- Churn generally decreases as customer tenure increases, indicating improved retention over time. However, there is a significant spike in churn at the 7–8 month tenure stage (~37.5%), which is notably higher than other groups. This suggests that even longer-tenured customers are not fully retained and remain at risk of churning
 
-📊 10. Overall Churn Rate is Significant
-Churn Rate: 14.55%
-388 out of 2666 customers churned
-
-👉 Insight:
-Churn is moderate but important enough to act on
-
+The pattern indicates that churn is not only an early-stage issue but may also be driven by factors such as:
+  - Declining perceived value over time
+  - Pricing concerns
+  - Accumulated unresolved service issues
 
 # Recommendation 
 - Improve customer service efficiency by ensuring most issues are resolved within the first 2–3 interactions, reducing the need for repeated calls.
@@ -145,23 +140,23 @@ Churn is moderate but important enough to act on
 - *Microsoft Excel* - Used for initial data inspection and understanding dataset structure
 
 #### 📊 Techniques
-- *Data Cleaning & Transformation* – Handling data types, creating calculated columns (e.g., tenure groups, risk tiers)
-- *DAX (Data Analysis Expressions)* – Creating measures such as:
+- **Data Cleaning & Transformation** – Handling data types, creating calculated columns (e.g., tenure groups, risk tiers)
+- **DAX (Data Analysis Expressions)** – Creating measures such as:
   - Total Customers
   - Churn Rate
   - Churned Customers
   - Retained Customers
-- *Data Visualization* – Using charts such as:
+- **Data Visualization** – Using charts such as:
     - Bar charts
     - Column charts
     - Donut charts
     - KPI cards
-- *Customer Segmentation* – Grouping customers based on:
+- **Customer Segmentation** – Grouping customers based on:
     - Service call frequency
     - Tenure
     - Usage behavior
-- *Exploratory Data Analysis (EDA)* – Identifying patterns, trends, and relationships between variables
-- *KPI & Dashboard Design* – Creating key metrics and a user-friendly dashboard layout for insights
+- **Exploratory Data Analysis (EDA)*8 – Identifying patterns, trends, and relationships between variables
+- **KPI & Dashboard Design** – Creating key metrics and a user-friendly dashboard layout for insights
 
 # Conclusion
 Customer churn at Orange Telecom is primarily driven by poor customer service experience, particularly among customers having frequent interactions with customer support. A clear pattern shows that as the number of service calls increases, the likelihood of churn rises significantly, with a noticeable tipping point after multiple unresolved issues.

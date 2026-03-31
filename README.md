@@ -69,47 +69,35 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 
 # Key Finding and Insights
 
-#### Customer Service Calls Strongly Drive Churn
+#### Customer Service Calls as a Key Driver of Churn (Critical Threshold: 4+ Calls)
 <img width="639" height="247" alt="Screenshot 2026-03-30 165946" src="https://github.com/user-attachments/assets/b01d21e3-bb1a-4d06-bbca-74933b70519c" />
 
-Churn rate increases sharply as customer service calls increase
-Customers with 6–8 calls show churn rates above 60%–100%
-Low call frequency (0–2 calls) has very low churn (~10%)
+- Churn rate increases sharply as customer service calls increase
+- Customers with 6–8 calls show churn rates above 60%–100%
+- Low call frequency (0–2 calls) has very low churn (10%)
+- Churn jumps significantly after 4 service calls (48%+)
 
-👉 Insight:
-Frequent complaints are a major predictor of churn
+##### Insight:
+  - Frequent complaints are a major predictor of churn.
+  - There is a clear “tipping point” at 4 calls
 
-⚠️ 2. Critical Threshold Identified (4+ Calls)
-Churn jumps significantly after 4 service calls (~48%+)
-Continues rising beyond this point
 
-👉 Insight:
-There is a clear “tipping point” at 4 calls
+#### Customer Service and Churn Risk
 
-📞 3. Churned Customers Contact Support More
-Average service calls:
-Churned customers: ~2.21
-Retained customers: ~1.45
+<img width="1209" height="408" alt="Screenshot 2026-03-31 135817" src="https://github.com/user-attachments/assets/ffea205a-f615-468f-b9d1-3d2e448a176e" />
 
-👉 Insight:
-Churned customers are more engaged with support due to issues
+- Churned customers make more customer service calls on average compared to retained customers
+  - Churned customers: 2.21 calls
+  - Retained customers: 1.45 calls
+    
+- Customers in the high call frequency segment show significantly higher churn rates:
+  - High frequency: ~64% churn
+  - Medium frequency: ~24% churn
+  - Low frequency: ~11% churn
 
-🌍 4. Regional Differences Exist
-Some states show higher churn concentration on the map
-
-👉 Insight:
-Possible:
-
-Service quality issues
-Network/infrastructure problems
-Regional competition
-📉 5. High Call Frequency Segment is Most At Risk
-High frequency group → ~64% churn
-Medium → ~24%
-Low → ~11%
-
-👉 Insight:
-Customers with frequent complaints are high-risk segment
+##### Insight:
+- Increased customer service interaction is a strong indicator of dissatisfaction, and customers with frequent complaints represent a high-risk segment for churn.
+  
 
 💳 6. International Plan Users Show Mixed Behavior
 Majority of customers do NOT use international plan

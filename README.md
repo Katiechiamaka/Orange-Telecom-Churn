@@ -69,23 +69,21 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 
 # Key Finding and Insights
 
-#### Customer Service Calls as a Key Driver of Churn (Critical Threshold: 4+ Calls)
+### Customer Service Calls as a Key Driver of Churn (Critical Threshold: 4+ Calls)
 <img width="639" height="247" alt="Screenshot 2026-03-30 165946" src="https://github.com/user-attachments/assets/b01d21e3-bb1a-4d06-bbca-74933b70519c" />
 
-##### Insight:
-- Churn rate increases sharply as customer service calls increase
-- Customers with 6–8 calls show churn rates above 60%–100%
-- Low call frequency (0–2 calls) has very low churn (10%)
-- Churn jumps significantly after 4 service calls (48%+)
+#### Insight:
+- Churn increases significantly with the number of customer service calls, indicating a strong relationship between customer dissatisfaction and churn.
+- Customers with low call frequency (0–2 calls) have minimal churn (10%), while those with 6–8 calls experience extremely high churn rates (60%–100%).
+- A clear tipping point exists at 4+ service calls, where churn rises sharply from 10.6% to 48.1%, highlighting a critical threshold of unresolved issues
 
-  - Frequent complaints are a major predictor of churn.
-  - A significant jump in churn occurs at 4+ service calls, with churn rising from 10.6% to 48.1%, indicating a critical threshold of customer dissatisfaction.
+This pattern suggests that repeated customer service interactions are a strong indicator of dissatisfaction, and customers with frequent complaints represent a high-risk segment for churn
 
 
-#### Customer Service and Churn Risk
+### Customer Service and Churn Risk
 <img width="1209" height="408" alt="Screenshot 2026-03-31 135817" src="https://github.com/user-attachments/assets/ffea205a-f615-468f-b9d1-3d2e448a176e" />
 
-##### Insight:
+#### Insight:
 - Churned customers make more customer service calls on average compared to retained customers
   - Churned customers: 2.21 calls
   - Retained customers: 1.45 calls
@@ -97,10 +95,10 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 
 Increased customer service interaction is a strong indicator of dissatisfaction, and customers with frequent complaints represent a high-risk segment for churn.
   
-#### Product, Pricing and Usage Influence
+### Product, Pricing and Usage Influence
 <img width="846" height="621" alt="Screenshot 2026-03-31 142019" src="https://github.com/user-attachments/assets/0f55f05b-3ac3-42f6-a86a-fa1afae8eca1" />
 
-##### Insight:
+#### Insight:
 - The majority of customers do not subscribe to the international plan, and churn is observed across both users and non-users.
 - Customers with voice mail plans are more commonly retained, suggesting a positive relationship with customer loyalty.
 - Churned customers exhibit slightly higher average daily charges compared to retained customers.
@@ -111,8 +109,8 @@ While service plans and pricing factors influence churn behavior, they are not t
 ### Churn Rate by Customer Tenure Group
 <img width="549" height="254" alt="Screenshot 2026-03-31 135130" src="https://github.com/user-attachments/assets/9341e8f8-dda6-43f6-86ea-0c6ef5546a52" />
 
-##### Insight:
-- Churn generally decreases as customer tenure increases, indicating improved retention over time. However, there is a significant spike in churn at the 7–8 month tenure stage (~37.5%), which is notably higher than other groups. This suggests that even longer-tenured customers are not fully retained and remain at risk of churning
+#### Insight:
+- Churn generally decreases as customer tenure increases, indicating improved retention over time. However, there is a significant spike in churn at the 7–8 month tenure stage (37.5%), which is notably higher than other groups. This suggests that even longer-tenured customers are not fully retained and remain at risk of churning
 
 The pattern indicates that churn is not only an early-stage issue but may also be driven by factors such as:
   - Declining perceived value over time

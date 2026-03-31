@@ -2,6 +2,7 @@
 
 ![orange-16463](https://github.com/user-attachments/assets/453fee86-50aa-46f0-b01e-f4c22924bbdc)
 
+
 # Project Overview
 This project focuses on analyzing the Orange Telecom Customer Churn dataset to identify patterns and factors that influence customer attrition. The dataset contains customer usage behavior, service plans, billing information, and customer service interactions, along with a target variable indicating whether a customer churned.
 
@@ -21,11 +22,11 @@ The dataset consists of **2,666** customers and captures key attributes that hel
 #### Service Plans
 - International Plan – Indicates whether the customer subscribes to an international calling plan.
 - Voice Mail Plan – Indicates whether the customer has a voice mail subscription.
-  
+
 #### Usage Metrics
 - Call Usage by Period (Day, Evening, Night) – Minutes and associated charges 
 - International Usage (Minutes / Charges) – Total international call usage and cost.
-  
+
 #### Customer Service Interaction
 - Customer Service Calls – Number of times the customer contacted customer support.
   

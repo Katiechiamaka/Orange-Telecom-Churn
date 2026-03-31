@@ -79,13 +79,14 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 
 ##### Insight:
   - Frequent complaints are a major predictor of churn.
-  - There is a clear “tipping point” at 4 calls
+  - A significant jump in churn occurs at 4+ service calls, with churn rising from 10.6% to 48.1%, indicating a critical threshold of customer dissatisfaction.
 
 
 #### Customer Service and Churn Risk
 
 <img width="1209" height="408" alt="Screenshot 2026-03-31 135817" src="https://github.com/user-attachments/assets/ffea205a-f615-468f-b9d1-3d2e448a176e" />
 
+##### Insight:
 - Churned customers make more customer service calls on average compared to retained customers
   - Churned customers: 2.21 calls
   - Retained customers: 1.45 calls
@@ -95,22 +96,17 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
   - Medium frequency: ~24% churn
   - Low frequency: ~11% churn
 
-##### Insight:
-- Increased customer service interaction is a strong indicator of dissatisfaction, and customers with frequent complaints represent a high-risk segment for churn.
+Increased customer service interaction is a strong indicator of dissatisfaction, and customers with frequent complaints represent a high-risk segment for churn.
   
+#### Product, Pricing and Usage Influence
+<img width="846" height="621" alt="Screenshot 2026-03-31 142019" src="https://github.com/user-attachments/assets/0f55f05b-3ac3-42f6-a86a-fa1afae8eca1" />
 
-💳 6. International Plan Users Show Mixed Behavior
-Majority of customers do NOT use international plan
-Churn exists in both groups but needs closer rate comparison
-
-👉 Insight:
-International plan alone is not the strongest churn driver, but still relevant
-
-📬 7. Voice Mail Plan Supports Retention
-Majority of retained customers have voice mail plans
-
-👉 Insight:
-Voice mail plan may act as a retention factor
+##### Insight:
+- The majority of customers do not subscribe to the international plan, and churn is observed across both users and non-users.
+- Customers with voice mail plans are more commonly retained, suggesting a positive relationship with customer loyalty.
+- Churned customers exhibit slightly higher average daily charges compared to retained customers.
+  
+While service plans and pricing factors influence churn behavior, they are not the primary drivers. However, value-added services like voice mail plans may support retention, and higher charges may contribute to churn due to perceived cost or value concerns.
 
 ⏳ 8. New Customers Are More Likely to Churn
 Highest churn observed in early tenure groups (e.g., 0–8 months)
@@ -119,11 +115,6 @@ Churn decreases as tenure increases
 👉 Insight:
 Customer loyalty improves over time
 
-💰 9. Higher Charges Slightly Linked to Churn
-Churned customers show slightly higher average daily charges
-
-👉 Insight:
-Pricing/value perception may influence churn
 
 📊 10. Overall Churn Rate is Significant
 Churn Rate: 14.55%

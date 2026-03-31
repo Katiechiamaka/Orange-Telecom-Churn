@@ -69,6 +69,8 @@ Orange Telecom is experiencing customer churn and lacks clear insight into the k
 # Key Finding and Insights
 
 #### Customer Service Calls Strongly Drive Churn
+<img width="639" height="247" alt="Screenshot 2026-03-30 165946" src="https://github.com/user-attachments/assets/b01d21e3-bb1a-4d06-bbca-74933b70519c" />
+
 Churn rate increases sharply as customer service calls increase
 Customers with 6–8 calls show churn rates above 60%–100%
 Low call frequency (0–2 calls) has very low churn (~10%)
